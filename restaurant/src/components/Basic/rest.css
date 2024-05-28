@@ -3,21 +3,18 @@
   margin: 0;
   padding: 0;
 }
-body{
+body {
   max-width: 1400px;
   margin: 20px auto;
 }
 
 .card-container {
-
-  margin: 20px;
+ margin: 20px;
   background-color: rgb(223, 223, 240);
-  min-width: 300px;
+  min-width: 250px;
+  width: 300px;
   height: 400px;
   text-align: justify;
-  
-  /* align-items: center; */
-  /* justify-content: space-between; */
 }
 .card {
   padding: 10px;
@@ -42,4 +39,9 @@ h2 {
 }
 .card-tag {
   padding: 10px 20px;
+}
+.card-section{
+  display: flex;
+  flex-wrap: wrap;
+  
 }
